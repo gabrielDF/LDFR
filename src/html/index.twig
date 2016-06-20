@@ -1,0 +1,37 @@
+{# LAYOUT #}
+{# ------------------------------------------------------------------------- #}
+{% extends "layout/_default.twig" %}
+
+{# GABARIT PRINCIPAL #}
+{# ------------------------------------------------------------------------- #}
+
+{% block header %}
+	{% include "partial/header.twig" %}
+{% endblock %}
+
+
+{% block main %}
+
+	<div class="programme">
+		{% include "partial/programme.twig" %}
+	</div>
+
+	<div class="intervenants">
+		{% include "partial/intervenants.twig" %}
+	</div>
+
+	<div class="map">
+		{% include "partial/map.twig" %}
+	</div>
+
+	<div class="contact">
+		{% include "partial/contact.twig" %}
+	</div>
+
+{% endblock %}
+
+
+{% block footer %}
+	{% include "partial/footer.twig" %}
+{% endblock %}
+

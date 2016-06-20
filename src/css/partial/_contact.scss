@@ -1,0 +1,21 @@
+.contain--contact {
+  margin : 0 20px;
+  text-align: center;
+  @media screen and (min-width: 640px) {
+    display: flex;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+}
+
+.adress {
+  margin: 20px 0;
+}
+
+.website {
+  padding: 10px 0;
+}
+
+.city {
+  margin: 40px auto;
+}

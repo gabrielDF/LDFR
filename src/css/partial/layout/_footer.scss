@@ -1,0 +1,71 @@
+.contain--footer--ld {
+   border-top: 1px solid #ebe8eb;
+  @media screen and (min-width: 640px) {
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+}
+
+.item--footer_facebook {
+  position: relative;
+  padding-left: 20px;
+  &:before {
+    position: absolute;
+    content:'';
+    background: url(../img/ico--fb.png) center center no-repeat;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+  }
+  .content--none {
+    display: none;
+  }
+  @media screen and (min-width: 640px) {
+    .content--none {
+      display: inherit;
+    }
+  }
+}
+
+.item--footer_twitter {
+  position: relative;
+  padding-left: 20px;
+  &:before {
+    position: absolute;
+    content:'';
+    background: url(../img/ico--tw.png) center center no-repeat;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+  }
+  .content--none {
+    display: none;
+  }
+  @media screen and (min-width: 640px) {
+    .content--none {
+      display: inherit;
+    }
+  }
+}
+
+.contain--one {
+  ul {
+    @media screen and (min-width: 640px) {
+      display: flex;
+    }
+  }
+}
+
+.contain--two {
+  ul {
+    @media screen and (min-width: 640px) {
+      display: flex;
+    }
+  }
+}
+

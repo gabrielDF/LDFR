@@ -1,0 +1,19 @@
+{# test.twig #}
+{# ------------------------------------------------------------------------- #}
+
+{# VARIABLES STATIQUES #}
+{# ------------------------------------------------------------------------- #}
+{# Préférez mettre vos variables dans le fichier:                            #}
+{#     ./src/data/pages/test.json                                            #}
+{# De même, les variables "globales" d'environnement devrais être dans:      #}
+{#     ./src/data/data.json                                                  #}
+
+{# LAYOUT #}
+{# ------------------------------------------------------------------------- #}
+{% extends "../layout/_default.twig" %}
+
+{# GABARIT PRINCIPAL #}
+{# ------------------------------------------------------------------------- #}
+{% block main %}
+  <p>{{ description }}</p>
+{% endblock %}
