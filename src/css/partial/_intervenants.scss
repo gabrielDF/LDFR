@@ -1,16 +1,31 @@
-.subtitle--ld {
-  margin: 30px 0;
+.contain--intervenants {
+  .subtitle--ld {
+    margin: 30px 0;
+    @media screen and (min-width: 640px) {
+      text-align: center;
+    }
+  }
 }
 
 .list--logo {
   width: 100%;
   padding: 0 20px;
 }
+@media screen and (min-with: 640px) {
+  .list--logo {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
 
 .style--logo {
   width: 48%;
   display: inline-block;
   text-align: center;
+  @media screen and (min-width: 640px) {
+    width: 24%;
+  }
   img {
     display: block;
     margin: 25px auto;
