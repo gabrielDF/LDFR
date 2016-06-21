@@ -10,9 +10,7 @@
 .list--logo {
   width: 100%;
   padding: 0 20px;
-}
-@media screen and (min-with: 640px) {
-  .list--logo {
+  @media screen and (min-with: 640px) {
     max-width: 1000px;
     margin: 0 auto;
   }
